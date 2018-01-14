@@ -1,3 +1,0 @@
-#Example Upload a file to Amazon S3
-
-~$ aws s3 cp myfile.txt s3://mybucket/

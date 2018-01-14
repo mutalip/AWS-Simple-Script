@@ -1,0 +1,13 @@
+#Example Upload a file to Amazon S3
+
+~$ aws s3 cp myfile.txt s3://mybucket/
+
+#List all your users and display the output in a table:
+~$ aws iam list-users --output table
+
+
+#List all your EC2 tags:
+~$aws ec2 describe-tags --output table
+
+# EC2 description
+~$aws ec2 describe-instances
