@@ -1,0 +1,13 @@
+You can use the CLI tools to manage your Amazon EC2 resources (such as instances, security groups, and volumes)
+and your Amazon VPC resources (such as VPCs, subnets, route tables, and Internet gateways). Before you can start
+using the tools, you must download and configure them. The following are valid CLI commands for EC2 instances:
+ec2-accept-vpc-peering-connection
+
+ec2-allocate-address
+ec2-assign-private-ip-addresses
+ec2-associate-address
+ec2-associate-dhcp-options
+ec2-associate-route-table
+ec2-attach-internet-gateway
+ec2-attach-network-interface (not ec2-allocate-interface)
+http://docs.aws.amazon.com/AWSEC2/latest/CommandLineReference/command-reference.html
