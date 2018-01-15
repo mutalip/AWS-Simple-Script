@@ -11,3 +11,12 @@
 
 # EC2 description
 ~$aws ec2 describe-instances
+
+#List uses
+~$aws iam list-users --output table
+
+#List s3 buckets
+~$aws s3 ls
+
+
+
