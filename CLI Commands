@@ -18,5 +18,11 @@
 #List s3 buckets
 ~$aws s3 ls
 
+#Describe EC2
+~$aws ec2 describe-instances
+~$aws ec2 describe-instances-status
+
+
+
 
 
