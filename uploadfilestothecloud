@@ -1,0 +1,16 @@
+##########################
+#a. Creating a bucket is optional if you already have a bucket created that you want to use. To create a new bucket named my-first-backup-bucket type:
+
+aws s3 mb s3://my-first-backup-bucket
+
+###########################
+#b. To upload the file my first backup.bak located in the local directory (C:\users) to the S3 bucket my-first-backup-bucket, you would use the following command:
+
+aws s3 cp “C:\users\my first backup.bak” s3://my-first-backup-bucket/
+
+###########################
+#To download my-first-backup.bak from S3 to the local directory we would reverse the order of the commands as follows: 
+aws s3 cp s3://my-first-backup-bucket/my-first-backup.bak ./
+
+###########################
+#
